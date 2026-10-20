@@ -1,0 +1,24 @@
+{
+  "name": "coin-maker-countdown",
+  "version": "1.0.0",
+  "description": "A fan made countdown for an upcoming game",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsumi-gabgab/Coin-Maker-Countdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/itsumi-gabgab/Coin-Maker-Countdown/issues"
+  },
+  "homepage": "https://github.com/itsumi-gabgab/Coin-Maker-Countdown#readme"
+}
