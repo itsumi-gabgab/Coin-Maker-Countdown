@@ -36,18 +36,18 @@ Initial structure:
 
 CoinMakerCountdown/
 ├── apps/
-│   ├── web/
-│   └── desktop/
+│ ├── web/
+│ └── desktop/
 ├── packages/
-│   ├── core/
-│   └── data/
+│ ├── core/
+│ └── data/
 ├── assets/
-│   ├── official/
-│   └── personal/
+│ ├── official/
+│ └── personal/
 ├── docs/
-│   ├── architecture/
-│   ├── research/
-│   └── sources/
+│ ├── architecture/
+│ ├── research/
+│ └── sources/
 ├── package.json
 ├── package-lock.json
 └── tsconfig.base.json
