@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    /*
+     * Language baseline
+     */
+    "target": "ES2024",
+
+    /*
+     * Module system
+     *
+     * Share packages are not tied to Node, Browser, or Electron.
+     * Environment-specific configuration belongs to consuming projects.
+     */
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true,
+
+    /*
+     * Environment
+     *
+     * Do not implicitly expose Node, Dom or other ambient type packages.
+     */
+    "types": [],
+
+    /*
+     * Type Safety
+     */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /*
+     * Code quality
+     */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedSideEffectImports": true,
+
+    /*
+     * Tooling compatibility
+     */
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    /*
+     * Emission is owned by individual packages/applications and their respective build tooling.
+     */
+    "noEmit": true
+  }
+}
