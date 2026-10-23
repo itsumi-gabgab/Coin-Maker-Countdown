@@ -2,7 +2,7 @@
 
 ## Status
 
-Proposed
+Accepted
 
 ## Decision
 
@@ -33,3 +33,21 @@ APIs.
 
 Persistence and mapping of project source data will be the responsibility
 of the data package.
+
+The domain must also represent the absence of an active known release timing.
+
+Unknown release timing is distinct from month, day and instant precision and
+may occur when previously announced timing is withdrawn or superseded without
+replacement timing.
+
+Release timing precision and release status are separate domain concepts and
+must not be conflated.
+
+A month-level release window expiring does not establish that release has
+occurred.
+
+A calendar release date beginning or expiring does not by itself establish
+that release has occurred when no exact release instant is known.
+
+Time alone may automatically establish the released state only when the
+authoritative release information provides an exact release instant.
